@@ -76,7 +76,7 @@ abutton8 = Button(root, text='8', padx=40, pady=20, command= lambda: enter_value
 abutton9 = Button(root, text='9', padx=40, pady=20, command= lambda: enter_value(9))
 abutton0 = Button(root, text='0', padx=40, pady=20, command= lambda: enter_value(0))
 
-abuttoncomma = Button(root, text='.', padx=42, pady=20, command= lambda: thescene('.'))
+abuttoncomma = Button(root, text='.', padx=42, pady=20, command= lambda: enter_value('.'))
 abuttonequal = Button(root, text='=', padx=40, pady=20, bg = 'green', command= lambda: equals())
 abuttonclear = Button(root, text='clear', padx=80, pady=20, bg = 'red', command=clear)
 abuttonadd = Button(root, text='+', padx=39, pady=20, command=add)
