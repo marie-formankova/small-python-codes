@@ -2,9 +2,10 @@ import random
 
 p = ['rock', 'paper', 'scissors','lizard', 'spock']
 player = False
-computer = random.choice(p)
+
 
 while player == False:
+    computer = random.choice(p)
     print('The game is on. Rock, paper, scissors...which one will you choose?')
     player = input()
     if computer == player:
@@ -26,7 +27,7 @@ while player == False:
         elif computer == 'spock':
             print('You win! %s disproves %s'%(player, computer))
         else:
-            print('You lose, %s cuts %s'(computer, player))   
+            print('You lose, %s cuts %s'%(computer, player))   
     elif player == 'scissors':
         if computer == 'rock':
             print('You lose, %s crushes %s'%(computer, player))
@@ -57,7 +58,3 @@ while player == False:
     else:
         print('Your input is invalid, try one of these instead:'+ str(p))
     player = False
-computer = random.choice(p)
-
-
-  
