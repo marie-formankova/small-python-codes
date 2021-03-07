@@ -1,3 +1,4 @@
+#je to rozbitý
 from tkinter import *
 
 root=Tk()
